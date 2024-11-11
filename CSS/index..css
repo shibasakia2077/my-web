@@ -1,0 +1,86 @@
+* {
+    position: relative;
+  }
+a {
+    text-decoration: none;
+    color:red;
+    font-size: 25px;
+    width: 80%;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin: 0 1rem;
+}
+a:hover {
+    color: #dec39c;
+}
+.nav-link {
+    font-size: 30px;
+    font-weight: bold;
+    color: #dec39c;
+}
+
+.nav-link:hover {
+ color: black;
+}
+h1 a {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+h5 a {
+    color: hwb(0 4% 54%);
+    font-size: 20px;
+}
+p a {
+    font-size: 20px;
+}
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: black;
+    color: red;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.card-group {
+    padding: 30px;
+}
+.card-header {
+    text-align: center;
+}
+.contents {
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+    padding: 30px;
+}
+.name {
+    font-size: 30px;
+    text-align: center;
+}
+.background {
+    position: relative;
+  }
+  
+  .background:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    background-image: url("/images/bgt1.png");
+    background-repeat: repeat;
+    background-position: 100% 0;
+    background-size: contain;
+  }
+  
